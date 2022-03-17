@@ -9,8 +9,8 @@ on:
     branches:
       - main
 
-      
- - uses: actions/checkout@v2
+
+- uses: actions/checkout@v2
       with:
       submodules: true
         
@@ -27,7 +27,6 @@ on:
 
     - name: Jekyll build
       run: jekyll build
-
 jobs:
   build_and_deploy_job:
     if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed')
