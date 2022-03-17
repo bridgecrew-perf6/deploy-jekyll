@@ -1,0 +1,39 @@
+#filter_users {
+    padding: 10px;
+    height: 35px;
+    width: 200px;
+  }
+
+  #users-list {
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 209px;
+  }
+
+  #users-list a {
+    list-style: none;
+    color: black;
+  }
+
+
+
+  .list-group-item {
+    padding: 5px;
+
+  }
+
+  .dynamic-list {
+    position: relative;
+    float: right;
+    left: -7%;
+    top: -35%;
+    padding-left: 20px;
+  }
+
+  .page-link-new {
+    padding-right: 10px;
+  }

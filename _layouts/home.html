@@ -1,0 +1,50 @@
+<html>
+
+<head>
+	<style>
+		::-webkit-scrollbar {
+			width: 7px;
+			height: 5px;
+			cursor: pointer;
+		}
+
+		::-webkit-scrollbar-track {
+			-webkit-box-shadow: #0097a7;
+			-webkit-border-radius: 20px;
+			border-radius: 20px;
+			cursor: pointer;
+		}
+
+		.sample-wrapper ::-webkit-scrollbar {
+			width: 8px;
+			height: 8px;
+			cursor: pointer;
+		}
+
+		::-webkit-scrollbar-thumb {
+			-webkit-border-radius: 20px;
+			border-radius: 20px;
+			background: #0097a7;
+			-webkit-box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.5);
+			cursor: pointer;
+		}
+		::-webkit-scrollbar-thumb:window-inactive {
+			background: #0097a7;
+		}
+	</style>
+	<meta http-equiv="refresh" content="0; url='{{ '/README.html' | prepend: site.baseurl }}'" />
+	{% include header.html %}
+	{% include filter.html %}
+	{% include head.html %}
+</head>
+
+<body>
+	<div class="page-wrap">
+		{{content}}
+	</div>
+	<footer class="site-footer">
+		{% include footer.html %}
+	</footer>
+</body>
+
+</html>
