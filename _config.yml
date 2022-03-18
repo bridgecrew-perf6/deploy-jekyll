@@ -1,9 +1,9 @@
 title: Meru Data
 email: info@merudata.com
-url: "https://proud-bush-09c843910.1.azurestaticapps.net/docs"
+url: ""
 twitter_username: merudata
 github_username:  merudata
-baseurl: "/docs"
+baseurl: ""
 theme: minima
 plugins:
   - jekyll-feed
