@@ -3,7 +3,7 @@ email: info@merudata.com
 url: ""
 twitter_username: merudata
 github_username:  merudata
-baseurl: ""
+baseurl: "/docs"
 theme: minima
 plugins:
   - jekyll-feed
